@@ -3,6 +3,7 @@ version: '2'
 services:
   postgres:
     image: postgres:9.6
+    # image: mdillon/postgis
   web:
     restart: always
     environment:

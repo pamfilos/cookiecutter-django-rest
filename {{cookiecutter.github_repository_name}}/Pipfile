@@ -1,0 +1,75 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+ipdb = "*"
+ipython = "*"
+mkdocs = "*"
+flake8 = "*"
+flake8-black = "*"
+
+[packages]
+# Core
+pytz = "*"
+Django = "*"
+django-configurations = "*"
+gunicorn = "*"
+newrelic = "*"
+
+# For the persistence stores
+psycopg2-binary = "*"
+dj-database-url = "*"
+
+# Model Tools
+django-model-utils = "*"
+django_unique_upload = "*"
+
+# Rest apis
+djangorestframework = "*"
+Markdown = "*"
+django-filter = "*"
+
+# Translations
+django-parler = "*"
+django-parler-rest = "*"
+django-translations = "*"
+
+# Maps, locations, GIS
+# django-google-maps = "*"
+# django-map-widgets = "*"
+# djangorestframework-gis = "*"
+
+# Testing
+mock = "*"
+factory-boy = "*"
+django-nose = "*"
+nose-progressive = "*"
+coverage = "*"
+
+# Static and Media Storage
+boto3 = "*"
+django-storages = "*"
+
+# Files
+# django-filer = "*"
+
+# Images
+# django-image-cropping = "*"
+# easy-thumbnails = "*"
+
+# Mails
+# django-sendgrid-v5 = "*"
+# django-mailgun = "*"
+
+# Monitoring
+# sentry-sdk = "==0.7.11"
+
+
+[requires]
+python_version = "3"
+
+[pipenv]
+allow_prereleases = true
